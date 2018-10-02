@@ -1,0 +1,67 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- basics.html                                        :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: edehmlow <marvin@42.fr>                    +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2018/10/01 16:14:36 by edehmlow          #+#    #+#            -->
+<!-- Updated: 2018/10/01 16:14:42 by edehmlow         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 4px;
+} 
+}
+</style>
+	<title>Basics</title>
+</head>
+<body style="background-color:pink;">
+	<center>
+		<h1 style="color:white; font-size:4em">-so bigger-&#8482</h1>
+	</center>
+	<div class="row">
+	  <div class="column">
+	    <img src="https://s3-media4.fl.yelpcdn.com/bphoto/_coTZERSFtDtsdIUPWvIjg/l.jpg" alt="No Starch Press" style="width:100%">
+		<a href="https://www.nostarch.com">No Starch Press</a>
+	</div>
+	  <div class="column">
+	    <img src="http://booklikes.com/upload/post/d/8/azure_d81c22ae1464eff3f4c7a4bfc39b9d68.jpg" alt="Barnes & Noble" style="width:100%">
+		<a href="https://www.barnesandnoble.com">Barnes & Noble</a>
+	  </div>
+	</div>
+	<hr>
+	<p align="right"><i><tt>&#169 edehmlow 2018</tt></i></p>
+</body>
+</html>
+
