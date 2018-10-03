@@ -1,0 +1,67 @@
+ .table {
+	  display:grid;
+	  grid-gap:1px;
+	  grid-template-columns: repeat(18, 1fr);
+	  grid-template-rows: 5.55vw 5.55vw 5.55vw 5.55vw 5.55vw
+	  5.55vw 5.55vw 5.55vw 5.55vw 5.55vw;
+  }
+.box {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+.elNobleGas {
+	background-color: #00FF00;
+}
+.elONonmetal {
+	background-color: #00FF7F;
+}
+.elMetalloid {
+	background-color: #006400;
+}
+.elPostTran{
+	background-color: #9370DB;
+}
+.elTran{
+	background-color: #ADD8E6;
+}
+.elActin {
+	background-color: #00BFFF;
+}
+.elLanth {
+	background-color: #00FFFF;
+}
+.elAEMetal {
+	background-color: #9ACD32;
+}
+.elAMetal {
+	background-color: #66CDAA;
+}
+.elNoClue {
+	background-color: #FFF0F5;
+}
+.number {
+	flex:1;
+	font-size: .6vw;
+	text-align: left;
+	padding: .1vw;
+}
+.letter {
+	flex:1;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 3.5vw;
+	contenteditable: true;
+}
+.weight {
+	flex:1;
+	font-size: .6vw;
+	text-align: right;
+}
+.set {
+	flex:1;
+	text-align: center;
+	font-size: 1.8vw;
+	font-color: blue;
+}
